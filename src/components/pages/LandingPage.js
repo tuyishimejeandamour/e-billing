@@ -10,10 +10,10 @@ export default function LandingPage() {
             <h1 className="main-title text-center">gura umuriro kuri e-bill</h1>
             <p className="main-para text-center">join us now and light home</p>
             <div className="buttons text-center">
-                <Link to="/login">
+                <Link to="/gura">
                     <button className="primary-button">gura</button>
                 </Link>
-                <Link to="/register">
+                <Link to="/reba">
                     <button className="primary-button" id="reg_btn"><span>reba</span></button>
                 </Link>
             </div>
