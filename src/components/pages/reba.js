@@ -7,8 +7,8 @@ export default function ForgetPasswordPage() {
     const [number,setNumber] = useState(null)
     const viewdays = (event)=>{
       setNumber(event.target.value)
-    }
-
+    }  
+   
     return (
         <div className="text-center m-5-auto">
             <h2>reba ibiciro niminsi usigaranye</h2>
@@ -18,7 +18,7 @@ export default function ForgetPasswordPage() {
                     <input type="number" onChange={viewdays} value={number} name="n" required />
                 </p>
                 <p>
-                    <button id="sub_btn" type="submit" onClick={submit}>reba</button>
+                    <button id="sub_btn" type="submit" >reba</button>
                 </p>
             </form>
             <footer>
